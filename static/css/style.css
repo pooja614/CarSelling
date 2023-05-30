@@ -1,0 +1,151 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap'); */
+
+html { width:100%; height:100%;}
+body{
+    width:100%;
+    height:100%;
+    
+    /* font-family:'Lora', serif; */
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url("img/car_1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:black;
+    font-size:24px;
+    /* text-align:center; */
+    letter-spacing:1.4px;
+    padding-left: 3%;
+  
+
+} 
+
+.jumb{
+    margin-bottom:0;
+    padding:2rem 0 3.5rem;
+  border-radius:0;
+  align-items: center;
+  background-color: #fff;
+  height: min-content;
+  
+  }
+
+
+.layer {
+    background-color: rgba(0, 1, 14, 0.801);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* features section----*/
+.jumbotron{
+    margin-bottom:0;
+    padding:2rem 0 3.5rem;
+  border-radius:0;
+  color: black;
+  
+
+  
+  }
+  h3{
+  font-size: 1.1rem;
+  font-weight: 1000;
+  margin-bottom: 0.8rem;
+  color: #932432;
+  }
+  .heading-underline{
+    width: 15rem;
+    height: .2rem;
+    background-color: #de3540;
+    margin: 0 auto 2rem; 
+
+  
+  }
+  .feature svg.svg-inline--fa{
+    /* color:#1ebba3; */
+    color:#eecb08b0;
+
+    align-items: center;
+    
+  }
+  .feature h3{
+    font-size:1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 1.1rem;
+  }
+ 
+
+.login{
+    position:absolute;
+    align-items: center;
+    top:32%;
+    left:39%; 
+    margin:-150px 0 0 -150px;
+    width:600px;
+    height:600px;
+}
+
+h1{color:#ffff;
+    font-size:40px;
+    text-shadow:0 0 10px rgb(88, 239, 250); 
+    letter-spacing:1px; 
+    position:absolute;
+    align-items: center;
+    top:3%;
+    left:30%;
+
+} 
+.white{ 
+    color:#ffff;
+    letter-spacing:1px; 
+    position:absolute;
+    align-items: left;
+    font-size: 1.1rem;
+
+    
+
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    /* border:3px solid #040014 */
+}
+
+.appp{
+    font-size:35px; 
+    color:black
+
+} 
+
+.smallbtn{
+    /* width: 180px; */
+    align-items: center;
+}
+input {
+    width:100%;
+    margin-bottom :10px;
+    background:rgba(0,0,0,0.3);
+    border:none;
+    outline:none;
+    padding:10px;
+    font-size:13px;
+    color:#fff;
+    text-shadow:1px 1px 1p rgba(0,0,0,0.3);
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius:4px;
+    box-shadow:insert 0 -5px 45px rgba(100,100,100, 0.2), 0 1px 1px rgba(255,255,255, 0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition:box-shadow .5s ease;
+}
+
+
+
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2)};
